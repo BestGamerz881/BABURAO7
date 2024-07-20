@@ -62,7 +62,6 @@ function takeCommand(message){
     }
   else if(message.includes("open youtube")){
         window.open("https://youtube.com", "_blank");
-        speak("Opening Youtube...")
         Audio(MASTJOCKMARAHAI.mp3)
     }
     else if(message.includes("open facebook")){
