@@ -62,7 +62,7 @@ function takeCommand(message){
     }
   else if(message.includes("open youtube")){
         window.open("https://youtube.com", "_blank");
-        Audio(MASTJOCKMARAHAI.mp3)
+        voice(MASTJOCKMARAHAI.mp3)
     }
     else if(message.includes("open facebook")){
         window.open("https://facebook.com", "_blank");
